@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech-Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+    body{
+        background-color: rgb(19, 18, 18);
+    
+        }
+    header{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            position: sticky;
+            top:0;
+        }
+        
+    .icon{
+         text-align: end;
+        }
+        
+    h2{
+       color: white;
+            margin-top:0px;
+            
+        }  
+        
+        
+        .eartext{
+           position: absolute;
+           
+           color: rgb(33, 32, 32);
+              font-size:200px;
+             font-style:initial;
+             font-weight: 50px;
+             z-index: -1;}
+/*         
+    img{
+        width: 200px;
+        }   */
+
+    footer{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        
+        
+    }
+
+    h3{color: white;
+     margin: 0px;} 
+
+    P{ color:gray;
+     } 
+     
+    button{
+        border: 1px;
+        width: 100px;
+        height: 30px;
+        border-radius: 1px;
+        background-color: red;
+        margin: 10px;
+    }
+
+   .email{
+    height:25px;
+    width: 200px;
+    border-radius:1px;
+    background-color: transparent;
+    border: 1px solid gray;
+    
+   }
+    
+h4{color:white;}
+
+
+.help{
+    color: gray;
+    padding-left: 0px;
+
+    
+   }
+
+.policies {
+color:gray;
+padding-left:0px;
+}
+
+.company{color: gray;
+    padding-left: 0px;}
+
+li{
+    padding-right: 10px;
+    padding: 10px;
+    margin: 0px;
+}   
+
+.train2{padding-left: 100px;
+}
+.train3{padding-left: 100px;}
+.train4{padding-left: 100px;}
+
+hr{
+    width: 101%;
+    border-color: gray;
+    margin: 0px;
+    padding: 0px;}
+
+.Sub-Footer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+
+.footer-paragraph{
+    color: gray;
+}
+
+.footer-icon{
+    text-align: end;
+}
+.footer-icon img{
+    padding-right:20px;
+    height: 25px;
+    width: 25px;
+    margin-top: 22px;
+}
+    
+
+.subparagraph {
+    color:white
+}
+.banner-section{
+          display: grid;
+          grid-template-columns: repeat(2,1fr);
+          height: 400px;
+          align-items: center;
+          margin-bottom: 0px;
+          
+        }
+
+.boat-image{
+    height:300px; 
+    width:250px; 
+}
+.banner{color: white;}
+
+
+.banner-section1{ 
+    margin-left: 50px;
+    padding-left: 50px;
+}
+
+.banner-section2{
+    margin-left: 150px;
+}
+
+.banner-paragraph{
+    font-size:15px;
+    color:white ;
+
+}
+
+.paragraph{
+color: gray;
+margin: 10px;
+}
+
+.footer-para{
+    color:gray;
+    
+}
+.banner-heading{ color: white;
+    font-size: 45px;
+}
+
+
+#myDIV{
+    margin: 100px; 
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+position: relative;
+margin: 0px; }
+
+  
+.banner-sectionA{
+    
+    height: 100px;
+    width: 150px;
+    padding-right:10px;
+    margin: 0px;}
+
+
+
+.banner-sectionB{
+    height: 220px;
+    width: 200px;
+    padding-right:10px;
+    margin: 0px;
+}
+
+.banner-sectionC{
+    height: 300px;
+    width: 300px;
+    padding-right:10px;
+    margin:0px;
+}
+
+
+.banner-sectionD{
+    height: 200px;
+    width: 200px;
+    padding-right:10px;
+    margin: 0px;}
+
+
+.banner-sectionE{
+    height:100px;
+    width: 150px;
+    padding-right:10px;
+    margin:0px;
+}
+
+
+.banner-paragraph3{
+    color: white;
+    text-align:center;
+} 
+
+.banner-paragraph2{
+    color: white;
+    text-align:center;
+}
+
+.banner-paragraph1{
+    color: white;
+    text-align:center;
+    
+}
+
+
+
+.banner-paragraph4{
+    color: white;
+    text-align:center;
+    margin-top: 20px;
+}
+
+.banner-paragraph5{
+    color: white;
+    text-align:center;
+    margin-top: 20px;
+}
+.paragraph{
+    color:gray;
+    
+   
+
+}
+.card-banner{
+    color: white;
+    text-align: center;
+   }
+#br5{
+    position: relative;
+    bottom:80px;
+
+}
+
+#br4{
+    position: relative;
+    bottom:30px;
+
+}
+
+
+
+#center{ 
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    margin:100px;
+    
+}
+
+.test-class{
+    display: flex;
+    justify-content: space-around;
+    margin:100px;
+}
+
+
+.banner-center{
+    color: white;
+}
+
+.banner-center:hover{
+     background-color: red;
+     animation-duration: 3s;
+    }
+
+
+.grid-container{
+    margin-bottom: 200px;
+    /* border: 2px solid gray; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px 10px;
+    
+    /* width: 1240px;  */}
+    
+
+.grid-item{
+            /* border: 5px solid gray; */
+            margin: 20px;
+            
+            align-items: center;
+            text-align: center;
+            
+            
+            
+            
+        }
+
+.grid-item1{
+    
+    border: 1px solid gray;
+    /* padding: 20px; */
+    /* font-size:20px; */
+}
+.grid-item2{
+    border: 1px solid gray;
+    
+}
+
+.grid-item3{
+    border: 1px solid gray;
+}
+
+
+.grid-item4{
+    border: 1px solid gray;
+}
+
+.grid-item5{
+    border: 1px solid gray;
+    
+}
+
+
+.grid-item6{
+    border: 1px solid gray;
+    
+}
+
+.grid-item7{
+    border: 1px solid gray;
+    
+}
+
+.grid-item8{
+    border: 1px solid gray;
+    
+}
+
+.grid-item9{
+    border: 1px solid gray;
+   
+}
+
+.grid-item10{
+    border: 1px solid gray;
+    
+}
+
+.grid-item11{
+    border: 1px solid gray;
+    
+    /* font-size: 20px; */
+}
+.grid-item12{
+    border: 1px solid gray;
+    padding: 20px;
+    align-items: center;
+    align-content: center;
+    /* font-size: 30px; */
+}
+
+.checked {
+  color: red; 
+  margin:2%;
+  font-size: 15px;
+  
+  
+}
+
+.star-container {
+
+    
+    display: flex;
+   padding:10px;
+}
+
+#main-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+    
+}
+
+
+.icocontain{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+   
+    
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltiptext {
+    top: 30px;
+    right: 23px;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 50px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 2px 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip-cart{
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+
+.tooltip-cart .tooltipct{
+  visibility: hidden;
+  width: 50px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 2px 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltipct{
+    top: 30px;
+    right: 23px;}
+
+.tooltip-cart:hover .tooltipct {
+  visibility: visible;
+}
+
+
+</style>
+</head>
+
+
+<body>
+    
+<header>
+     <h2>Tech-Shop</h2>
+
+ 
+    <section class="icon">
+        <div class="tooltip">
+            <img style="margin-right: 40px; width: 20px;"  src="./Icons/icons8-search-48.png">
+            <span class="tooltiptext">search</span>
+        </div>
+      
+    <div class="tooltip-cart">  
+    <a href="..//Project\Cart.html">
+       <img style="margin-right: 40px; width: 20px;"  src="./Icons/icons8-cart-24.png">
+       <span class="tooltipct">cart</span>
+    </a>
+    
+    </div>
+    
+    
+    <a href="..\css\registrain.html"> 
+        <img style="margin-right: 40px; width: 20px;"  src=".\Icons\icons8-customer-32.png">
+    </a>
+
+    </section>
+</header>
+
+<div>
+    <div class="eartext">In Ear</div>
+   </div>
+
+
+<div class="banner-section">
+
+    <div class="banner-section1">
+        <b> <P class="banner" style="font-size: 20px;">boAt Airdopes 131</P></b>
+        <h3 class="banner-heading"><b>Featherweight For ComFort All-Day.</b></h3>
+        <p class="banner-paragraph">₹1,099 <del><span class="paragraph">₹2,990</span</del> </p>
+        
+        <Button>Shop Now</Button>
+        </div>
+    <div class="banner-section2">
+        <img class="boat-image" src="../Project/images for Project/boat131-3.png" alt="this is an image" height="200px" width="400px">
+    </div>
+</div>
+
+
+<center> <h2 clas="header">Featured Products</h2></center>
+
+<Section id="myDIV" style="margin-top: 200px;">
+    
+    <div class="boAtmain" style="padding: 10px;">
+        <p class="card-banner" id="br3">JBL Endurance Run Sports</p>
+       
+        
+        <img src="../Project/images for Project/jbl-endu-1.png"  class="banner-sectionA" alt="boat images">
+       
+        <p class="banner-paragraph1">₹999 <del><span class="paragraph">₹1,599</span</del> </p>
+     </div>
+    
+    
+    <div class="boAt1" style="padding: 20px;">
+        <p class="card-banner" id="br4">boAt Airdopes 2023</p>
+        <img src="../Project/images for Project/boat203-1.png" class="banner-sectionB" alt="Boat Image">
+        <p class="banner-paragraph2">₹1,074 <del><span class="paragraph">₹3999</span></del></p>
+    </div>
+    <div class="boAt-Rockerz" style="padding:30px;" >
+        <p class="card-banner" id="br5">boAt Rockerz 518</p>
+        <img src="..\Project\images for Project\boat518-1.png" class="banner-sectionC" alt="boat images">
+        <p class="banner-paragraph3">₹1,299 <del> <span class="paragraph">₹3999</span></del></p>
+    </div>
+    <div class="boAt-Tune" style="padding:20px">
+        <p class="card-banner" id="br4">JBL Tune 760NC</p>
+        <img src="..\Project\images for Project\jbl760nc-1.png" class="banner-sectionD" alt="boat images">
+        <p class="banner-paragraph4">₹5,999 <del> <span class="paragraph">₹7,999</span></del></p>
+    </div>
+    <div class="boAt-Rockers1" style="padding:20px ;">
+        <p class="card-banner" id="br3">boAt Rockerz 255</p>
+        <img src="..\Project\images for Project\boat255r-1.png"   class="banner-sectionE" alt="boat images">
+        <p class="banner-paragraph5">₹899 <del> <span class="paragraph">₹2,990</span></del></p>
+    </div>
+   
+
+
+</Section>
+ 
+<section style="margin-top: 100px;">
+    <Center><h2>Top Products</h2></Center>
+</section>
+
+
+<section class="test-class"> 
+    <p class="banner-center">All</p>
+    <p class="banner-center">Headphones</p>
+    <p class="banner-center">Earbuds</p>
+    <p class="banner-center">Earphones</p>
+    <p class="banner-center">Neckbands</p>
+</section>
+
+
+
+<div class="grid-container">
+<div class="grid-item1" >
+   <div style="background-color: rgb(30, 30, 30)">
+    <a href="..\Project\product.html">
+
+    <img src="..\Project\images for Project\jbl660nc-1.png" height="200px" width="200px" >
+</a>
+</div>
+  <div style="display: grid; margin: 20px;">
+    <div class="star-container">
+        <span  class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+   </div>
+   
+    <h3>JBL Live 660NC</h3>
+    <p>Wireless Over-Ear NC Headphones</p>
+    <hr>
+    <p >₹9,999 <del> <span class="paragraph">₹14,999</span></del></p>
+    
+    <button style="width: 200px;">Add to Cart</button>
+</div>
+</div>
+
+
+<div class="grid-item2">
+    <div style="background-color: rgb(30, 30, 30)">
+    <img src="..\Project\images for Project\boat518-1.png" height="200px" width="200px">
+ </div>
+ <div style="display: grid; margin: 20px;">
+    <div class="star-container">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+    </div>
+    <h3>boat Rockerz 518</h3>
+    <p>On-Ear Wireless Headphones</p>
+    <hr>
+    <p >₹1,299 <del> <span class="paragraph">₹3,990</span></del></p>
+    <button style="width: 200px;">Add to Cart</button>
+</div>
+</div>
+
+
+<div class="grid-item3">
+    <div style="background-color: rgb(30, 30, 30)">
+    <img src="..\Project\images for Project\boat131-1.png" height="200px" width="200px">
+    </div>
+<div style="display: grid; margin: 20px;">
+    <div class="star-container">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+  
+    </div>
+  
+    <h3>boat Airdopes 131</h3>
+    <p>Wireless in-Ear Earbuds</p>
+    <hr>
+    <p >₹1,099 <del> <span class="paragraph">₹2,990</span></del></p>
+    <button style="width: 200px;">Add to Cart</button>
+</div>>
+</div>
+
+
+<div class="grid-item4">
+    <div style="background-color: rgb(30, 30, 30)">
+    <img src="..\Project\images for Project\boat110-1.png" height="200px" width="200px" id="images-banner">
+</div>
+<div style="display: grid; margin: 20px;">
+    <div class="star-container">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+    </div>
+    <h3>boat BassHeads 110</h3>
+    <p>In-Ear Wired Earphones</p>
+    <hr>
+    <p >₹499 <del> <span class="paragraph">₹999</span></del></p>
+    <button style="width: 200px;">Add to Cart </button>
+</div>
+</div>
+
+<div class="grid-item5">
+    <div style="background-color: rgb(30, 30, 30)">
+        <img src="..\Project\images for Project\boat410-1.png"    height="200px" width="200px">
+    </div>
+    <div style="display: grid; margin: 20px;">
+        <div class="star-container">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+        </div>
+        <h3>JBL Live 660NC</h3>
+        <p>Wireless Over-Ear NC Headphones</p>
+        <hr>
+        <p >₹9,999 <del> <span class="paragraph">₹14,999</span></del></p>
+        
+        <button style="width: 200px;">Add to Cart</button>
+    </div>
+    </div>
+    
+    <div class="grid-item6">
+        <div style="background-color: rgb(30, 30, 30)">
+        <img src="..\Project\images for Project\jbl200bt-1.png"    height="200px" width="200px">
+    </div>
+    <div style="display: grid; margin: 20px;"></div>
+        <div class="star-container">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+        </div>
+        <h3>JBL Live 200BT
+        </h3>
+        <p>In-Ear Wireless Neckbands</p>
+        <hr>
+        <p >₹3,699<del> <span class="paragraph">₹5,299</span></del></p>
+        
+        <button style="width: 200px;">Add to Cart</button>
+    
+    </div>
+
+    
+    <div class="grid-item7">
+        <div style="background-color: rgb(30, 30, 30)">
+        <img src="..\Project\images for Project\sonyXb910n-1.png"    height="200px" width="200px">
+    </div>
+    <div style="display: grid; margin: 20px;">
+        <div class="star-container">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+        </div>
+        <h3>Sony WH-XB910N</h3>
+        <p class="wrap-text"> Wireless Over-Ear Headphones</p>
+        <hr>
+        <p >₹13,489 <del> <span class="paragraph">₹19,990</span></del></p>
+        
+        <button
+        class="card-button" style="width: 200px;">Add to Cart</button>
+    </div>
+    </div>
+
+    <div class="grid-item8">
+        <div style="background-color: rgb(30, 30, 30)">
+        <img src="..\Project\images for Project\jbl760nc-1.png"   height="200px" width="200px">
+    </div>
+    <div style="display: grid; margin: 20px;">
+        <div class="star-container">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+        </div>
+        <h3>JBL Tune 760NC</h3>
+        <p>Wireless Over-Ear NC Headphones</p>
+        <hr>
+        <p>₹5,999<del> <span class="paragraph">₹7,999</span></del></p>
+        
+        <button class="card-button" style="width: 200px;">Add to Cart</button>
+    </div>
+    </div>
+
+    <div class="grid-item9">
+           <div style="background-color: rgb(30, 30, 30)">
+             <img src="..\Project\images for Project\boat255r-1.png"   height="200px" width="200px">
+           </div>
+    <div style="display: grid; margin: 20px;">
+            <div class="star-container">
+            <span  class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+    </div>
+        <h3>boAt Rockerz 255</h3>
+        <p>In-Ear Wireless Neckbands</p>
+        <hr>
+        <p>₹899<del> <span class="paragraph">₹2,990</span></del></p>
+        
+        <button class="card-button" style="width: 200px;">Add to Cart</button>
+    </div>
+    
+    </div>
+
+        
+    <div class="grid-item10">
+        <div style="background-color: rgb(30, 30, 30)">
+        <img src="..\Project\images for Project\jbl100-1 (1).png"   height="200px" width="200px">
+    </div>
+    <div style="display: grid; margin: 20px;" >
+        <div class="star-container">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+        </div>
+        <h3>JBL Wave 100</h3>
+        <p>In-Ear Truly Wireless Earbuds</p>
+        <hr>
+        <p>₹2,999<del> <span class="paragraph">₹6,999</span></del></p>
+        
+        <button class="card-button" style="width: 200px;">Add to Cart</button>
+    </div>
+    </div>
+
+
+<div class="grid-item11">
+    <div style="background-color: rgb(30, 30, 30)">
+    <img src="..\Project\images for Project\sony1000xm4-1.png" class="card-image"  height="200px" width="200px">
+</div>
+<div style="display: grid; margin: 20px;">
+    <div class="star-container">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+    </div>
+    <h3>Sony WF-1000XM4</h3>
+    <p>Wireless In-Ear NC Headphones</p>
+    <hr>
+    <p>₹19,990<del> <span class="paragraph">₹24,990</span></del></p>
+    
+    <button class="card-button" style="width: 200px;">Add to Cart</button>
+</div>
+</div>
+
+<div class="grid-item12" style="color: white;display: flex;">
+    <p style="font-size: 33px;">Browse All Products &#8594;</p>
+</div>
+
+</div>
+
+
+<Center><h3 style="margin-bottom: 100px;">Our Advantages</h3></Center>
+
+<div id="main-container" style="margin-bottom: 100px;">
+    <div class="icocontain">
+        <div style="padding-top: 20px; padding-right:10px; margin-top: 10px;" >
+           <i class="fa-solid fa-truck-fast" style="color: red; font-size:20px;" ></i>
+        </div>
+     <div>
+        <h4 style="margin-bottom: 0px;">Express Delivery</h4>
+        <p style="margin-top: 0px;">Ships in 24 Hours</p>
+     </div>
+
+    </div>
+
+    <div class="icocontain">
+        <div style="padding-top: 20px; padding-right:10px; margin-top: 10px;">
+           <i class="fa-solid fa-shield-halved"  style="color: red; font-size:20px;" ></i>
+        </div>
+     <div>
+        <h4 style=" margin-bottom:0px;" >Brand Warranty</h4>
+        <p  style="margin-top:0px;"> 100% Original Products</p>
+     </div>
+
+    </div>
+
+    <div class="icocontain">
+        <div style="padding-top: 20px; padding-right:10px; margin-top: 10px;">
+           <i class="fa-solid fa-tags" style="color: red; font-size:20px;"></i>
+        </div>
+     <div>
+        <h4 style=" margin-bottom:0px;">Exciting Deals </h4>
+        <p  style="margin-top:0px;">On all Prepaid Orders</p>
+     </div>
+
+    </div>
+
+    <div class="icocontain">
+        <div style="padding-top: 20px; padding-right:10px; margin-top: 10px;">
+           <i class="fa-solid fa-credit-card" style="color: red; font-size:20px;"></i>
+        </div>
+     <div >
+        <h4 style="margin-bottom:0px;">Secure Payments </h4>
+        <p style="margin-top: 0px;">SSL/Secure Certificate</p>
+     </div>
+
+    </div>
+
+   
+</div>
+
+
+<Footer>
+    <section class="train1">
+    <h3>Tech-Shop</h3>
+    <p style="font-size: 19px;">
+     Subscribe to our Email alerts to receive early discount offers, and new products info.
+    </p>
+    <input type="email" name="Email" placeholder="Email address*" class="email">
+    <button>Subscribe</button>
+    </section>
+    
+<section class="train2">
+    <h3 style="margin-left: 10px;">Help</h3>
+<ul class="help" type="none">
+    <li>FAQs</li>
+    <li>Track Order</li>
+    <li>Cancel Order</li>
+    <li>Retun Order</li>
+    <li>Warranty Info</li>
+</ul>
+</section>
+   
+<section class="train3">
+    <h3 style="margin-left: 10px;">Policies</h3>
+
+<ul class="policies" type="none">
+    <li>Retun Policy</li>
+    <li>Security</li>
+    <li>Sitemap</li>
+    <li>Privacy Policy</li>
+    <li>Terms & Conditions</li>
+</ul>
+</section>
+
+<section class="train4">
+    <h3>Company</h3>
+<ul class="company" type="none">
+    <li>About.Us</li>
+    <li>Contract Us</li>
+    <li>Service Centers</li>
+    <li>Careers</li>
+    <li>Affiliates</li>
+</ul>
+</section>
+</Footer>
+<hr>
+<div class="Sub-Footer" style="height:100px;">
+    <section>
+    <p class="footer-paragraph">
+    2024 | All Rights Reserved Built by |  <span class="subparagraph">SUCHITRA DAS</span>
+    </p>
+   </section>
+
+<section class="footer-icon">
+    <img src=".\Icons\icons8-facebook-24.png" alt="facebook">
+    <img src=".\Icons\icons8-twitter-30.png" alt="twitter">
+    <img src=".\Icons\icons8-instagram-24.png" alt="instagram">
+    <img src=".\Icons\icons8-linkedin-2-32.png" alt="Linkedin">
+</section>
+
+</body>
+</html>
